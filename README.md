@@ -18,3 +18,9 @@ This script requires Python 3.8+ and the following libraries:
 
 ```bash
 pip install pandas requests
+
+
+🚀 Usage 
+Run the script directly from your terminal. Bash python NetworkTestv2.py
+The script will prompt you for the desired number of parallel download/upload streams. For standard fibre lines (100-500 Mbps), 2 to 4 streams are recommended to bypass basic traffic shaping.
+⚠️ Disclaimer: This tool initiates highly aggressive, concurrent data streams to test physical line capacity. Running this continuously or with an excessive number of threads may trigger your ISP's DDoS protection or violate Fair Usage Policies (FUP). Use responsibly for personal network auditing.
