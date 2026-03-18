@@ -1,0 +1,7 @@
+# Ignore log files and CSV receipts
+*.csv
+*.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
